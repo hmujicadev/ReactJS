@@ -1,0 +1,46 @@
+-Que es
+Libreria de JS
+enfocada en la vista (mvc-modelo controladr)
+desarrollada por fb 2013
+
+-Componentes:
+html  /public
+css   /styles
+js      /scripts
+
+Los elementos no se modifican, eso es lo que le da el performance.
+-Instalacion:
+En consola:
+node -v (para ver la versión) se recomienda ultima estable
+npm -v (para ver versión del gestor de paquetes) mayor a 5
+
+Virtual DOM (Document Object Model)
+Copia exacta del modelo e documento de la pagina que vamos a renderizar, en vez de recargar todos los elementos, como en el DOM convencional.
+
+se recomienda trabajar React js con el lenguaje jsx
+
+-Compilador task/runner (Webpack)
+
+Es necesario traducir JSX a còdigo javaScript con un transpilador para traducir estos lenguajes(traduce y compila) esto lo haremos con Babel.
+
+para instalar babel debemos instalar 
+*Babel-loader
+*Babel-core
+
+estas dos librerias permiten la integraciòn con webpack
+adicionalmente requerimos de los plugins:
+* babel-preset-es2015
+* babel-preset-react
+
+para instalar webpack necesitamos instalar:
+* webpack-dev-server
+* webpack-cli
+* webpack
+
+comando para crear una aplicacion por defecto:
+* npm install -g create-react-app   (instalar)
+* create-react-app (nombre de la aplicacion)
+
+luego debemos ingresar a la carpeta del proyecto e iniciarlo con
+* cd (nombre)
+* npm start para iniciar el servidor 
