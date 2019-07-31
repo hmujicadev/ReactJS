@@ -10,7 +10,7 @@ class HeaderClass extends React.Component{
                 <img className="App-logo" src={logo} alt="Logo React"></img>
                 <h1>Mi primer Aplicaciòn</h1>
                 <p>Trabajando con REACT</p>
-                <Navclass />
+                <NavClass />
             </header>
         )
     }
